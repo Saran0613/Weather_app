@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.top {
+  background-color:  rgb(216, 216, 216);
+  width: 100%;
+  height: 2%;
+ 
+}
+.footer {
+  background-color: rgb(216, 216, 216);
+}
+.app-title {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.font{
+  font-weight: 100;
+}
+.logo {
+  width: 40px;
+  margin-right: 20px;
+}
+
+body {
+   background-image: url("https://wallpapershome.com/images/wallpapers/sea-1920x1080-5k-4k-wallpaper-8k-moon-clouds-sky-4394.jpg"); 
+   background-size: cover; 
+   width: 100%;
+    background-repeat:no-repeat ; 
+  background-position: center;
+}
+.custom-btn {
+  display: inline-block;
+  padding: 0.375rem 0.75rem; /* Padding similar to Bootstrap buttons */
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: #007bff; /* Primary button blue background */
+  color: #fff; /* White text */
+  border: 1px solid #007bff; /* Primary button blue border */
+  border-radius: 0.25rem;
+  margin-left: 0.5rem; /* Equivalent to ml-2 */
+}
+
+.custom-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3;
+}
+.search {
+  background-color:#c95c2e;
+  padding: 12px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+.text-black {
+  /* font-weight: 1000; */
+  background-color: beige;
+}
+.fill-current {
+  color: black;
+}
+.height {
+  display: block;
+  align-items: center;
+  margin-top: 40vh;
+  height: 29vh;
+  width: 100vw;
+  text-align: center;
+}
+.aaa {
+  width: 5%;
+  margin-left: 37.9em;
+  /* margin-top: 1em; */
+  /* margin-bottom: 5em; */
+}
+.main-h1 {
+  color: black;
+  /* color: #fff; */
+  
+}
+.font-bold{
+    color: white;
+}
+.about,.contact{
+ /* padding-right: 50px; */
+ width: 80px;
+ margin-right: 20px;
+ background-color: #4345a3;
+align-self: center;
+border-radius: 8px;
+padding: 10px 10px;
+}
+.card{
+  border-color: #fff;
+}
